@@ -21,6 +21,7 @@ Os dados por trás do site Inside Airbnb são obtidos de informações publicame
 
 * Como foi a definição da sua estratégia de modelagem?
 	> A estratégia usada para avaliar este conjunto de dados pode ser descrita a partir dos seguintes passos:
+
 		1. Análise exploratória do conjunto de dados de forma geral, identificando valores ausentes, variáveis duplicadas, colunas inconsistentes, etc.;
 		2. Estudo mais detalhado sobre a distribuição das principais variáveis do conjunto de dados; Detecção de distorções causadas por outliers, valores inconsistentes, etc.;
 		3. Remoção dos outliers das principais variáveis numéricas do conjunto de dados; Avaliação da eficácia da remoção dos outliers na distribuição do conjunto de dados;
