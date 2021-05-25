@@ -19,7 +19,7 @@ Os dados por trás do site Inside Airbnb são obtidos de informações publicame
 
 **Perguntas:**
 
-a. Como foi a definição da sua estratégia de modelagem?
+* Como foi a definição da sua estratégia de modelagem?
 	> A estratégia usada para avaliar este conjunto de dados pode ser descrita a partir dos seguintes passos:
 		1. Análise exploratória do conjunto de dados de forma geral, identificando valores ausentes, variáveis duplicadas, colunas inconsistentes, etc.;
 		2. Estudo mais detalhado sobre a distribuição das principais variáveis do conjunto de dados; Detecção de distorções causadas por outliers, valores inconsistentes, etc.;
@@ -32,14 +32,14 @@ a. Como foi a definição da sua estratégia de modelagem?
 		9. Avaliação do resultado dos algoritmos otimizados a partir da função Log Loss e;
 		10. Seleção do melhor modelo criado.
 
-b. Como foi definida a função de custo utilizada?
+* Como foi definida a função de custo utilizada?
 	> Para a trabalhar com esta análise de classificação, optamos pelo uso da função LogLoss em todas as etapas de criação do modelo para que previsões incorretas de maneira muito acertiva tivessem penalidades maiores.
-c. Qual foi o critério utilizado na seleção do modelo final?
+* Qual foi o critério utilizado na seleção do modelo final?
 	> Vários testes foram efetuados, e na grande maioria, o algoritmo XGBoost apresentou a melhor performance na predição feita para o conjunto de dados. Seu score para as métricas de acurácia e LogLoss foram os que apresentaram os melhores resultados.
-d. Qual foi o critério utilizado para validação do modelo? Por que escolheu utilizar este método?
+* Qual foi o critério utilizado para validação do modelo? Por que escolheu utilizar este método?
 	O modelo foi treinado utilizando dados de treino, validação e teste. Isso permitiu a criação de um modelo que fosse generalizável e que não sofresse de overfitting. A escolha do XGBoost foi feita devido a boa performance obtida durante as avaliações preliminares dos diferentes algoritmos testados.
 	
-e. Quais evidências você possui de que seu modelo é suficientemente bom?
+* Quais evidências você possui de que seu modelo é suficientemente bom?
 	> Depende do que "suficientemente bom" significa, já que sua interpretação é subjetiva. Mas, dado os resultados da análise, acredito que o modelo consiga performar muito bem com um resultado satisfatório na maioria dos casos.
 
 Para visualizar a análise completa feita neste projeto, acesse este link:
